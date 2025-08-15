@@ -23,6 +23,8 @@ public class main {
 
             int acabados = caixa * qntde;
             System.out.printf("CODIGO: %s%n TOTAL = %d%n", cod1, acabados);
+        } else if (cont == 2) {
+
         }
     }
 }
