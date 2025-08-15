@@ -7,7 +7,6 @@ public class main {
 
         Scanner sc = new Scanner(System.in);
 
-
         System.out.printf(" DIGITE 1 PARA CONTAGEM DE ACABADOS %n DIGITE 2 PARA CONTAGEM DE COMPONENTES %n");
         int cont = sc.nextInt();
 
@@ -44,7 +43,7 @@ public class main {
             double totalac = divi * numc;
 
             System.out.println(" CONTAGEM ACABADOS");
-            System.out.printf(" CODIGO = %s%n TOTAL = %.2f", cod2, totalac);
+            System.out.printf(" CODIGO = %s%n TOTAL = %.0f", cod2, totalac);
         }
 
         sc.close();
